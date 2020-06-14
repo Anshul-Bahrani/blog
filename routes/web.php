@@ -18,5 +18,12 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::middleware(['auth'])->group(function () {
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('categories', 'CategoriesController');
+Route::resource('posts', 'PostsController');
+Route::delete('/trash/{post}', 'PostsController@trash')->name('posts.trash');
+Route::get('/trashed', "PostsController@trashed")->name('posts.trashed');
+Route::put('/restore/{post}', 'PostsController@restore')->name('posts.restore');
+Route::resource('tags', 'TagsController');
+});
