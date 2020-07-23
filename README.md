@@ -30,6 +30,7 @@ A Blogging Webiste with numerous features and a great UI to please your eyes as 
 - Create will store the post image name in the database and store the image in storage/public/posts folder which has a symlink with the public/posts to access with a view.
 - Includes middleware authentication for validating the author whose post is being controlled to ensure that someone dosen't edit someone else's post.
 - Used attach, detach and sync methods for many:many relations.
+- Every show kind of function has paginate attached to it to paginate all the blogs nicely.
 
 ### Views ###
 - Containes all views for resourceful routes...used trix writer for content create/edit field so as to provide all the tools for a true writer to write something beautiful.
