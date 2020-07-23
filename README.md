@@ -1,4 +1,4 @@
-<p align="center"><b><h1>Blogging Website</h1></b></p>
+<p align="center"><b><h1>Blogging Website - PenIt</h1></b></p>
 
 ---
 
@@ -15,6 +15,7 @@ A Blogging Webiste with numerous features and a great UI to please your eyes as 
 - Restricted access to your materials, (blogs, profile).
 - Schedule a blog to be posted in the future.
 - By mistakely Deleted something you didnt want to? Go to the trashed section to recover it.
+- Can comment on other's Post to give feedback and/or appreaciation.
 ---
 # For a Developer POV:
 
@@ -49,4 +50,3 @@ Standard views of edit, create, etc views created by bootstrap.
 ## Tags
 
 Just the relation with post differs as compared to Category Section..
-
